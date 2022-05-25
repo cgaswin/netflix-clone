@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import requests from "../Requests";
 import axios from "axios";
-import { stringify } from "postcss";
 
 const Main = () => {
   const [movies, setMovies] = useState([]);
